@@ -1,0 +1,21 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #cf88cf4f;
+    height: 500px;
+    width: 70px;
+   list-style: none;
+
+    .nav-img {
+        width: 50px;
+        height: 30px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+}
