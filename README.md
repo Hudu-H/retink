@@ -8,7 +8,7 @@
  Folderize react component naming convention, componization of code, DRY principle and sass styling(scss)
 
  # Screenshot
- ![retink assesment web page](retink/src/components/images/retink .png)
+ ![retink assesment web page](retink/retink/src/components/images/retink .png?raw=true)
 
  # installation 
  Open project and cd into project
