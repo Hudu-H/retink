@@ -3,6 +3,7 @@ import "./styles.scss";
 import * as Hi2Icons from "react-icons/hi2";
 import * as PiIcons from "react-icons/pi";
 import * as FaIcons from "react-icons/fa";
+import Tilt from 'react-parallax-tilt';
 
 const Projects = () => {
   return (
@@ -14,7 +15,7 @@ const Projects = () => {
       <div className="container-projects">
         <span>Social Media</span>
         <div className="projects-1">
-          <div className="projects">
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <Hi2Icons.HiOutlinePencil />
@@ -30,8 +31,8 @@ const Projects = () => {
                 clicks of a button
               </p>
             </div>
-          </div>
-          <div className="projects">
+          </Tilt>
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <PiIcons.PiNotePencilLight color="green" />
@@ -46,8 +47,8 @@ const Projects = () => {
                 Instantly generate engaging product description that sell
               </p>
             </div>
-          </div>
-          <div className="projects">
+          </Tilt>
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <FaIcons.FaRegListAlt className="lens" color="#a349ab" />
@@ -62,8 +63,8 @@ const Projects = () => {
                 Automatically create unique factual articles at the touch of the button
               </p>
             </div>
-          </div>
-          <div className="projects">
+          </Tilt>
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <Hi2Icons.HiOutlinePencil className="lens" />
@@ -79,11 +80,11 @@ const Projects = () => {
                 clicks of a button
               </p>
             </div>
-          </div>
+          </Tilt>
         </div>
         <span>Social Media</span>
         <div className="projects-2">
-          <div className="projects">
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <Hi2Icons.HiOutlinePencil />
@@ -99,8 +100,8 @@ const Projects = () => {
                 clicks of a button
               </p>
             </div>
-          </div>
-          <div className="projects">
+          </Tilt>
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <PiIcons.PiNotePencilLight color="green" />
@@ -115,8 +116,8 @@ const Projects = () => {
               Instantly generate engaging product description that sell
               </p>
             </div>
-          </div>
-          <div className="projects">
+          </Tilt>
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <FaIcons.FaRegListAlt className="lens" color="#a349ab" />
@@ -131,8 +132,8 @@ const Projects = () => {
               Automatically create unique factual articles at the touch of the button
               </p>
             </div>
-          </div>
-          <div className="projects">
+          </Tilt>
+          <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
                 <Hi2Icons.HiOutlinePencil className="lens" />
@@ -148,7 +149,7 @@ const Projects = () => {
                 clicks of a button
               </p>
             </div>
-          </div>
+          </Tilt>
         </div>
       </div>
     </div>
