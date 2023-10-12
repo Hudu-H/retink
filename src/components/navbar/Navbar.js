@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.scss";
 import retink from "../images/retink.jpeg";
+//error on build
 import * as AiIcons from "react-icons/ai";
 import * as RxIcons from "react-icons/rx";
 import * as PiIcons from "react-icons/pi";
@@ -16,7 +17,7 @@ function Navbar() {
           placeholder="Searc for templates, projects, etc"
         />
         <div className="icons">
-          <AiIcons.AiOutlineSearch className="lens" />
+          <AiIcons.AiOutlineSearch className="lens" /> 
           <AiIcons.AiOutlineClose className="close" />
         </div>
       </div>
