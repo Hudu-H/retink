@@ -11,7 +11,7 @@ const SidebarMobile = () => {
     } else {
       document.body.classList.remove("blur");
     }
-  }, [open]);
+  });
 
   return (
     <div className="hamburger-menu">
