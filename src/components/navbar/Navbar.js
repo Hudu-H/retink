@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.scss";
 import retink from "../images/retink.jpeg";
-//error on build
-import * as AiIcons from "react-icons/ai";
+import * as BsIcons from "react-icons/bs";
 import * as RxIcons from "react-icons/rx";
 import * as PiIcons from "react-icons/pi";
+import * as MdIcons from "react-icons/md";
 
 function Navbar() {
   return (
@@ -17,8 +17,8 @@ function Navbar() {
           placeholder="Searc for templates, projects, etc"
         />
         <div className="icons">
-          <AiIcons.AiOutlineSearch className="lens" /> 
-          <AiIcons.AiOutlineClose className="close" />
+          <BsIcons.BsSearch className="lens" />
+          <MdIcons.MdClose className="close" />
         </div>
       </div>
 
