@@ -7,7 +7,7 @@
   left: 80px;
   display: flex;
   align-items: center;
-  background-color: #cf88cf38;
+  background-color: var(--primary);
   border-radius: 12px;
   font-family: 'Raleway', sans-serif;
 
@@ -43,11 +43,11 @@
         width: 160px;
         height: 30px;
         border-radius: 20px;
-        border: 1px solid #892be2a1;
+        border: 2px solid var(--border);
         margin-left: 30px;
         background-color: #fff;
         cursor: pointer;
-        color: #892be2a1;
+        color: var(--border);
 
         &:hover {
           background-color: #cf88cf38;
@@ -72,7 +72,7 @@
     }
 
     .text-secondary {
-      background-color: rgb(255, 255, 255, 0.23);
+      background-color: #ffffff4c;
       margin: 50px 50px 5px 10px;
 
       .first {

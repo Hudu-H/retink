@@ -62,12 +62,12 @@ header {
       height: 36px;
       border-radius: 24px;
       border: none;
-      background-color: #892be285;
-      font-size: 18px;
+      background-color: #9022f6;
+      font-size: 16px;
       color: white;
 
       &:hover {
-        background-color: #892be2b7;
+        background-color: var(--hover);
       }
     }
   }
@@ -84,7 +84,7 @@ header {
       width: 50px;
       height: 30px;
       border-radius: 25px;
-      background-color: #ccc;
+      background-color: var(--primary);
       transition: background 0.3s;
       outline: none;
       cursor: pointer;
@@ -115,7 +115,7 @@ header {
   .nav {
     display: flex;
     align-items: center;
-    background-color: #cf88cf38;
+    background-color: var(--primary);
     width: 380px;
     height: 50px;
     justify-content: space-around;
@@ -128,10 +128,6 @@ header {
       width: 60px;
       font-size: 28px;
 
-      &:hover {
-        background-color: #cf88cf50;
-      }
-
       > li {
         list-style: none;
       }
@@ -142,6 +138,11 @@ header {
         justify-content: center;
         margin-right: 10px;
         font-size: 30px;
+
+        &:hover {
+          background-color: var(--hover);
+          transform: translateY(3px);
+        }
       }
 
       .bell {
@@ -150,16 +151,19 @@ header {
         justify-content: center;
         margin-right: 10px;
         font-size: 30px;
+
+         &:hover {
+        background-color: var(--hover);
+        transform: translateY(3px);
+      }
       }
 
       .image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img .profile {
-          border-radius: 7px;
-          margin-left: 10px;
+        .profile {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 15px;
         }
       }
     }

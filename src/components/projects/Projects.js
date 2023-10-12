@@ -4,7 +4,6 @@ import * as Hi2Icons from "react-icons/hi2";
 import * as PiIcons from "react-icons/pi";
 import * as FaIcons from "react-icons/fa";
 
-
 const Projects = () => {
   return (
     <div className="container-main">
@@ -35,7 +34,7 @@ const Projects = () => {
           <div className="projects">
             <div className="icons">
               <span className="pencil">
-                <PiIcons.PiNotePencilLight  color="green"/>
+                <PiIcons.PiNotePencilLight color="green" />
               </span>
               <span className="arrow">
                 <Hi2Icons.HiOutlineArrowTrendingUp />
@@ -44,15 +43,14 @@ const Projects = () => {
             <div className="project-items">
               <h3>Product description</h3>
               <p>
-                Generate the best blog post to fit your audience with just few
-                clicks of a button
+                Instantly generate engaging product description that sell
               </p>
             </div>
           </div>
           <div className="projects">
             <div className="icons">
               <span className="pencil">
-                <FaIcons.FaRegListAlt className="lens"  color="#a349ab"/>
+                <FaIcons.FaRegListAlt className="lens" color="#a349ab" />
               </span>
               <span className="arrow">
                 <Hi2Icons.HiOutlineArrowTrendingUp />
@@ -61,8 +59,7 @@ const Projects = () => {
             <div className="project-items">
               <h3>Article writer</h3>
               <p>
-                Generate the best blog post to fit your audience with just few
-                clicks of a button
+                Automatically create unique factual articles at the touch of the button
               </p>
             </div>
           </div>
@@ -84,6 +81,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <span>Social Media</span>
         <div className="projects-2">
           <div className="projects">
             <div className="icons">
@@ -97,7 +95,7 @@ const Projects = () => {
             <div className="project-items">
               <h3>Blog Writing</h3>
               <p>
-                Generate the best blog post to fit your audience with just few
+              Generate the best blog post to fit your audience with just few
                 clicks of a button
               </p>
             </div>
@@ -105,7 +103,7 @@ const Projects = () => {
           <div className="projects">
             <div className="icons">
               <span className="pencil">
-                <PiIcons.PiNotePencilLight  color="green"/>
+                <PiIcons.PiNotePencilLight color="green" />
               </span>
               <span className="arrow">
                 <Hi2Icons.HiOutlineArrowTrendingUp />
@@ -114,15 +112,14 @@ const Projects = () => {
             <div className="project-items">
               <h3>Product description</h3>
               <p>
-                Generate the best blog post to fit your audience with just few
-                clicks of a button
+              Instantly generate engaging product description that sell
               </p>
             </div>
           </div>
           <div className="projects">
             <div className="icons">
               <span className="pencil">
-                <FaIcons.FaRegListAlt className="lens"  color="#a349ab"/>
+                <FaIcons.FaRegListAlt className="lens" color="#a349ab" />
               </span>
               <span className="arrow">
                 <Hi2Icons.HiOutlineArrowTrendingUp />
@@ -131,8 +128,7 @@ const Projects = () => {
             <div className="project-items">
               <h3>Article writer</h3>
               <p>
-                Generate the best blog post to fit your audience with just few
-                clicks of a button
+              Automatically create unique factual articles at the touch of the button
               </p>
             </div>
           </div>
