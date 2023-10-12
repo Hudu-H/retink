@@ -5,8 +5,14 @@ import * as FaIcons from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import "./styles.scss";
+import SidebarMobile from "./sidebar.mobile";
+import { useMediaQuery } from 'react-responsive';
 
 const Sidebar = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 425px)" });
+  {
+    isMobile ? <SidebarMobile /> : <Sidebar />;
+  }
   return (
     <div className="container">
       <div className="nav">
@@ -15,7 +21,7 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className="nav">
-        <Link to="#" className="home">
+        <Link to="#home" className="home">
           <AiIcons.AiFillHome />
         </Link>
       </div>
