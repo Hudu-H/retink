@@ -7,6 +7,9 @@ import Projects from './components/projects/Projects';
 import './global.scss';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
+//yet to build and connect
+import SidebarMobile from "./components/sidebar/sidebar.mobile";
+
 const queryClient = new QueryClient();
 
 const App = () => {
@@ -17,6 +20,7 @@ const App = () => {
         <Hero />
         <Projects />
         <Navbar />
+        {/* <SidebarMobile /> */} 
         <Routes>
           <Route path="/" />
         </Routes>
