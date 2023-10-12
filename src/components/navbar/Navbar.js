@@ -5,7 +5,7 @@ import * as AiIcons from "react-icons/ai";
 import * as RxIcons from "react-icons/rx";
 import * as PiIcons from "react-icons/pi";
 
-function Navbar({ toggle }) {
+function Navbar() {
   return (
     <header>
       <div className="search-input">
