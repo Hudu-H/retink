@@ -5,10 +5,13 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Hero from "./components/hero/Hero";
 import Projects from './components/projects/Projects';
 import './global.scss';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
+const queryClient = new QueryClient();
 
 const App = () => {
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
       <Router>
         <Sidebar />
         <Hero />
@@ -18,7 +21,7 @@ const App = () => {
           <Route path="/" />
         </Routes>
       </Router>
-    </>
+    </QueryClientProvider>
   );
 };
 

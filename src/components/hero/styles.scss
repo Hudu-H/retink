@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&display=swap");
+@import '../../mediaQuery.scss';
+
 .container-hero {
   width: 94vw;
   height: 230px;
@@ -10,6 +12,10 @@
   background-color: var(--primary);
   border-radius: 12px;
   font-family: 'Raleway', sans-serif;
+
+  @include mobile {
+    width: 50px;
+  }
 
   .container-left {
     display: flex;
