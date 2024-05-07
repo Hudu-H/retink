@@ -3,7 +3,7 @@ import "./styles.scss";
 import * as Hi2Icons from "react-icons/hi2";
 import * as PiIcons from "react-icons/pi";
 import * as FaIcons from "react-icons/fa";
-import Tilt from 'react-parallax-tilt';
+import Tilt from "react-parallax-tilt";
 
 const Projects = () => {
   return (
@@ -43,9 +43,7 @@ const Projects = () => {
             </div>
             <div className="project-items">
               <h3>Product description</h3>
-              <p>
-                Instantly generate engaging product description that sell
-              </p>
+              <p>Instantly generate engaging product description that sell</p>
             </div>
           </Tilt>
           <Tilt className="projects">
@@ -60,7 +58,8 @@ const Projects = () => {
             <div className="project-items">
               <h3>Article writer</h3>
               <p>
-                Automatically create unique factual articles at the touch of the button
+                Automatically create unique factual articles at the touch of the
+                button
               </p>
             </div>
           </Tilt>
@@ -81,9 +80,6 @@ const Projects = () => {
               </p>
             </div>
           </Tilt>
-        </div>
-        <span>Social Media</span>
-        <div className="projects-2">
           <Tilt className="projects">
             <div className="icons">
               <span className="pencil">
@@ -96,7 +92,7 @@ const Projects = () => {
             <div className="project-items">
               <h3>Blog Writing</h3>
               <p>
-              Generate the best blog post to fit your audience with just few
+                Generate the best blog post to fit your audience with just few
                 clicks of a button
               </p>
             </div>
@@ -112,9 +108,7 @@ const Projects = () => {
             </div>
             <div className="project-items">
               <h3>Product description</h3>
-              <p>
-              Instantly generate engaging product description that sell
-              </p>
+              <p>Instantly generate engaging product description that sell</p>
             </div>
           </Tilt>
           <Tilt className="projects">
@@ -129,7 +123,8 @@ const Projects = () => {
             <div className="project-items">
               <h3>Article writer</h3>
               <p>
-              Automatically create unique factual articles at the touch of the button
+                Automatically create unique factual articles at the touch of the
+                button
               </p>
             </div>
           </Tilt>
