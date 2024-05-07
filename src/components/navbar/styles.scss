@@ -40,6 +40,7 @@ header {
         display: flex;
         justify-content: center;
         right: 210px;
+        cursor: pointer;
       }
 
       .close {
@@ -47,6 +48,7 @@ header {
         display: flex;
         justify-content: center;
         left: 210px;
+        cursor: pointer;
       }
     }
   }
@@ -65,6 +67,7 @@ header {
       background-color: #9022f6;
       font-size: 16px;
       color: white;
+      cursor: pointer;
 
       &:hover {
         background-color: var(--hover);
@@ -138,11 +141,6 @@ header {
         justify-content: center;
         margin-right: 10px;
         font-size: 30px;
-
-        &:hover {
-          background-color: var(--hover);
-          transform: translateY(3px);
-        }
       }
 
       .bell {
@@ -151,11 +149,6 @@ header {
         justify-content: center;
         margin-right: 10px;
         font-size: 30px;
-
-         &:hover {
-        background-color: var(--hover);
-        transform: translateY(3px);
-      }
       }
 
       .image {

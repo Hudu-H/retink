@@ -1,16 +1,21 @@
 # Retink app
- Retink assesment test
 
- # Build status
- 90% complete, yet working on mobile responsive
+An assesment project
 
- # Code style
- Folderize react component naming convention, componization of code, DRY principle and sass styling(scss)
+## Build status
 
- # Screenshot
- ![retink assesment web page](retink/src/components/images/retink.png)
+90% complete, yet working on mobile responsive
 
- # installation 
- * Open project and cd into project
- * run npm install to install all dependencies
- * run npm start run production environment
+## Code style
+
+Folderize react component naming convention, componization of code, DRY principle and sass styling(scss)
+
+## UI screenshot
+
+![retink assesment web page](/src/components/images/retink.png)
+
+## installation
+
+- Open project and cd into project
+- npm install to install all dependencies
+- npm start to open development environment
